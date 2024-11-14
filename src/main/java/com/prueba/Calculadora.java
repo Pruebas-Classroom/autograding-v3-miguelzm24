@@ -11,7 +11,7 @@ public class Calculadora {
     // Resta dos números enteros
     public int restar(int a, int b) {
         // TODO: Implementar
-        return a-b;
+        return a+b;
     }
 
     // Multiplica dos números enteros
@@ -23,7 +23,7 @@ public class Calculadora {
     // Divide dos números enteros
     public int dividir(int a, int b) {
         // TODO: Implementar
-        return a*b;
+        return a/b;
     }
     
 }
