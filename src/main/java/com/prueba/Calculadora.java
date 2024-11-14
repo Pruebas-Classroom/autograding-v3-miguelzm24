@@ -23,7 +23,7 @@ public class Calculadora {
     // Divide dos números enteros
     public int dividir(int a, int b) {
         // TODO: Implementar
-        return a*b;
+        return a/b;
     }
     
 }
