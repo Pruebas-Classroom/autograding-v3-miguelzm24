@@ -38,9 +38,8 @@ public class CalculadoraTest {
     @Tag("dividir")
     @Test
     public void testDividir() {
-        //Test modificado
-        assertEquals(0, calculadora.dividir(4, 2), "La división de 4 y 2 debería ser 2");
-        assertEquals(0, calculadora.dividir(1, 2), "La división de 0 por 2 debería ser 0");
+        assertEquals(2, calculadora.dividir(4, 2), "La división de 4 y 2 debería ser 2");
+        assertEquals(0, calculadora.dividir(0, 2), "La división de 0 por 2 debería ser 0");
 
         // Prueba de excepción al dividir por cero
         assertThrows(ArithmeticException.class, () -> {
